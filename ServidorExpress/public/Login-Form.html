@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultivo Login Formulario</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Login-Form.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" rel="stylesheet" />
+    
+</head> 
+  <body>
+
+    <nav>
+      <img src="./imagenes/LOGOBLANCO.png" alt="">
+
+      <div>
+          <a href="./CultivoMasaMadreHTML2.html"  id="buttonNav">
+              <i class="fas fa-cookie-bite"></i>
+              Productos </a>
+          <a href="#contact" id="buttonNav"> 
+              <i class="fas fa-address-book"></i>
+              Contacto </a>
+      </div>
+    </nav>
+
+    <main>
+      <div>
+        <h1>Login</h1>
+
+        <form method="POST" action="javascript:void(0);">
+          <input id="mail" type="email" name="mail" placeholder="Ingrese su correo">
+          <input id="password" type="password" name="password" placeholder="Ingrese su contraseña">
+          <button id="login">Login</button>
+        </form>
+
+        <div class="loader hidden">Cargando...</div>
+      </div>
+    </main>
+
+    <section>
+      <div class="contactform">
+        <form method="POST" action="javascript:void(0);">
+          <h2>Formulario de Contacto</h2>
+          <input id="mailcontact" type="email" name="mail" placeholder="Ingrese su correo">
+          <input id="telephone" type="text" name="telephone" placeholder="Ingrese su Telefono">
+          <textarea name="message" placeholder="Escriba aqui su mensaje" id="message"> </textarea>
+          <input id="send" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div id="contact">
+          <a class="footbutton" 
+          href="https://www.instagram.com/cultivomasamadre/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              Cultivomasamadre
+          </a>
+
+          <a class="footbutton" href="tel:+59898111557">
+              <i class="fab fa-whatsapp"></i>
+              098111557
+          </a>
+      </div>
+
+      <div>
+          <p> © Copyright 2021</p>
+          <p> Desarrollado por Agustin Cajal 🦾</p> 
+      </div>
+    </footer>
+
+    <script src="Login-Form.js"></script>
+  </body>
+</html>
